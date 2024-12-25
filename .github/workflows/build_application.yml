@@ -46,15 +46,15 @@ jobs:
 
       # Get Flutter dependencies
       - name: Flutter Pub Get
-        run: cd front && flutter pub get
+        run: flutter pub get
 
       - name: Build
-        run: cd front && flutter build apk
+        run: flutter build apk
 
       # Check Build Result
       - name: Check Build Result
         run: |
-          if [ ! -f front/build/app/outputs/flutter-apk/app-release.apk ]; then
+          if [ ! -f build/app/outputs/flutter-apk/app-release.apk ]; then
             echo "Build failed!"
             exit 1
           else
