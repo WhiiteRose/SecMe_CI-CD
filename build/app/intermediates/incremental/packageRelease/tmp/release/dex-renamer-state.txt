@@ -1,0 +1,4 @@
+#Fri Dec 13 16:07:11 CET 2024
+base.0=/home/gaara/Delivery/G-EIP-700-LYN-7-1-eip-tom.roger/front/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

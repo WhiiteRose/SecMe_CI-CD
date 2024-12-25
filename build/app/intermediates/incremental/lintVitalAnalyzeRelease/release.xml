@@ -1,0 +1,40 @@
+<variant
+    name="release"
+    package="com.example.sec_me"
+    minSdkVersion="21"
+    targetSdkVersion="34"
+    shrinking="true"
+    mergedManifest="/home/gaara/Delivery/G-EIP-700-LYN-7-1-eip-tom.roger/front/build/app/intermediates/merged_manifest/release/AndroidManifest.xml"
+    proguardFiles="/home/gaara/Delivery/G-EIP-700-LYN-7-1-eip-tom.roger/front/build/app/intermediates/default_proguard_files/global/proguard-android.txt-7.3.0:/home/gaara/mycoding/flutter/packages/flutter_tools/gradle/flutter_proguard_rules.pro:proguard-rules.pro"
+    partialResultsDir="/home/gaara/Delivery/G-EIP-700-LYN-7-1-eip-tom.roger/front/build/app/intermediates/lint_vital_partial_results/release/out"
+    desugaredMethodsFiles="/home/gaara/.gradle/caches/transforms-3/c3d589a969ed41ca3ee41007fb66acf4/transformed/D8BackportedDesugaredMethods.txt">
+  <buildFeatures
+      namespacing="REQUIRED"/>
+  <sourceProviders>
+    <sourceProvider
+        manifest="src/main/AndroidManifest.xml"
+        javaDirectories="src/main/java:src/main/kotlin"
+        resDirectories="src/main/res"
+        assetsDirectories="src/main/assets"/>
+    <sourceProvider
+        manifest="src/release/AndroidManifest.xml"
+        javaDirectories="src/release/java:src/release/kotlin"
+        resDirectories="src/release/res"
+        assetsDirectories="src/release/assets"/>
+  </sourceProviders>
+  <testSourceProviders>
+  </testSourceProviders>
+  <testFixturesSourceProviders>
+  </testFixturesSourceProviders>
+  <manifestPlaceholders>
+    <placeholder
+        name="applicationName"
+        value="android.app.Application" />
+  </manifestPlaceholders>
+  <mainArtifact
+      classOutputs="/home/gaara/Delivery/G-EIP-700-LYN-7-1-eip-tom.roger/front/build/app/intermediates/javac/release/classes:/home/gaara/Delivery/G-EIP-700-LYN-7-1-eip-tom.roger/front/build/app/tmp/kotlin-classes/release:/home/gaara/Delivery/G-EIP-700-LYN-7-1-eip-tom.roger/front/build/app/kotlinToolingMetadata:/home/gaara/Delivery/G-EIP-700-LYN-7-1-eip-tom.roger/front/build/app/intermediates/compile_and_runtime_not_namespaced_r_class_jar/release/R.jar"
+      applicationId="com.example.sec_me"
+      generatedSourceFolders="/home/gaara/Delivery/G-EIP-700-LYN-7-1-eip-tom.roger/front/build/app/generated/ap_generated_sources/release/out:/home/gaara/Delivery/G-EIP-700-LYN-7-1-eip-tom.roger/front/build/app/generated/aidl_source_output_dir/release/out:/home/gaara/Delivery/G-EIP-700-LYN-7-1-eip-tom.roger/front/build/app/generated/source/buildConfig/release:/home/gaara/Delivery/G-EIP-700-LYN-7-1-eip-tom.roger/front/build/app/generated/renderscript_source_output_dir/release/out"
+      generatedResourceFolders="/home/gaara/Delivery/G-EIP-700-LYN-7-1-eip-tom.roger/front/build/app/generated/res/rs/release:/home/gaara/Delivery/G-EIP-700-LYN-7-1-eip-tom.roger/front/build/app/generated/res/resValues/release">
+  </mainArtifact>
+</variant>

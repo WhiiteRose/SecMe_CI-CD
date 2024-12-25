@@ -1,0 +1,181 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.sec_me"
+4    android:versionCode="4001"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10
+11    <queries>
+11-->/home/gaara/Delivery/G-EIP-700-LYN-7-1-eip-tom.roger/front/android/app/src/debug/AndroidManifest.xml:3:5-8:15
+12        <intent>
+12-->/home/gaara/Delivery/G-EIP-700-LYN-7-1-eip-tom.roger/front/android/app/src/debug/AndroidManifest.xml:4:9-7:18
+13            <action android:name="android.intent.action.SENDTO" />
+13-->/home/gaara/Delivery/G-EIP-700-LYN-7-1-eip-tom.roger/front/android/app/src/debug/AndroidManifest.xml:5:13-67
+13-->/home/gaara/Delivery/G-EIP-700-LYN-7-1-eip-tom.roger/front/android/app/src/debug/AndroidManifest.xml:5:21-64
+14
+15            <data android:scheme="mailto" />
+15-->/home/gaara/Delivery/G-EIP-700-LYN-7-1-eip-tom.roger/front/android/app/src/debug/AndroidManifest.xml:6:13-44
+15-->/home/gaara/Delivery/G-EIP-700-LYN-7-1-eip-tom.roger/front/android/app/src/debug/AndroidManifest.xml:6:19-42
+16        </intent>
+17    </queries>
+18    <!--
+19         The INTERNET permission is required for development. Specifically,
+20         the Flutter tool needs it to communicate with the running application
+21         to allow setting breakpoints, to provide hot reload, etc.
+22    -->
+23    <uses-permission android:name="android.permission.INTERNET" />
+23-->/home/gaara/Delivery/G-EIP-700-LYN-7-1-eip-tom.roger/front/android/app/src/debug/AndroidManifest.xml:13:5-66
+23-->/home/gaara/Delivery/G-EIP-700-LYN-7-1-eip-tom.roger/front/android/app/src/debug/AndroidManifest.xml:13:22-64
+24
+25    <permission
+25-->[androidx.core:core:1.13.1] /home/gaara/.gradle/caches/transforms-3/5bd1579d325d58e15b455ca40b2cc43e/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+26        android:name="com.example.sec_me.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+26-->[androidx.core:core:1.13.1] /home/gaara/.gradle/caches/transforms-3/5bd1579d325d58e15b455ca40b2cc43e/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+27        android:protectionLevel="signature" />
+27-->[androidx.core:core:1.13.1] /home/gaara/.gradle/caches/transforms-3/5bd1579d325d58e15b455ca40b2cc43e/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+28
+29    <uses-permission android:name="com.example.sec_me.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+29-->[androidx.core:core:1.13.1] /home/gaara/.gradle/caches/transforms-3/5bd1579d325d58e15b455ca40b2cc43e/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+29-->[androidx.core:core:1.13.1] /home/gaara/.gradle/caches/transforms-3/5bd1579d325d58e15b455ca40b2cc43e/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+30
+31    <application
+32        android:name="android.app.Application"
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.13.1] /home/gaara/.gradle/caches/transforms-3/5bd1579d325d58e15b455ca40b2cc43e/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+34        android:debuggable="true"
+35        android:icon="@mipmap/ic_launcher"
+36        android:label="sec_me" >
+37        <activity
+38            android:name="com.example.sec_me.MainActivity"
+39            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+40            android:exported="true"
+41            android:hardwareAccelerated="true"
+42            android:launchMode="singleTop"
+43            android:theme="@style/LaunchTheme"
+44            android:windowSoftInputMode="adjustResize" >
+45
+46            <!--
+47                 Specifies an Android theme to apply to this Activity as soon as
+48                 the Android process has started. This theme is visible to the user
+49                 while the Flutter UI initializes. After that, this theme continues
+50                 to determine the Window background behind the Flutter UI.
+51            -->
+52            <meta-data
+53                android:name="io.flutter.embedding.android.NormalTheme"
+54                android:resource="@style/NormalTheme" />
+55
+56            <intent-filter>
+57                <action android:name="android.intent.action.MAIN" />
+58
+59                <category android:name="android.intent.category.LAUNCHER" />
+60            </intent-filter>
+61        </activity>
+62        <!--
+63             Don't delete the meta-data below.
+64             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+65        -->
+66        <meta-data
+67            android:name="flutterEmbedding"
+68            android:value="2" />
+69
+70        <provider
+70-->[:flutter_email_sender] /home/gaara/Delivery/G-EIP-700-LYN-7-1-eip-tom.roger/front/build/flutter_email_sender/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+71            android:name="com.sidlatau.flutteremailsender.FlutterEmailSenderFileProvider"
+71-->[:flutter_email_sender] /home/gaara/Delivery/G-EIP-700-LYN-7-1-eip-tom.roger/front/build/flutter_email_sender/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-90
+72            android:authorities="com.example.sec_me.file_provider"
+72-->[:flutter_email_sender] /home/gaara/Delivery/G-EIP-700-LYN-7-1-eip-tom.roger/front/build/flutter_email_sender/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-65
+73            android:exported="false"
+73-->[:flutter_email_sender] /home/gaara/Delivery/G-EIP-700-LYN-7-1-eip-tom.roger/front/build/flutter_email_sender/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+74            android:grantUriPermissions="true" >
+74-->[:flutter_email_sender] /home/gaara/Delivery/G-EIP-700-LYN-7-1-eip-tom.roger/front/build/flutter_email_sender/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+75            <meta-data
+75-->[:flutter_email_sender] /home/gaara/Delivery/G-EIP-700-LYN-7-1-eip-tom.roger/front/build/flutter_email_sender/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:61
+76                android:name="android.support.FILE_PROVIDER_PATHS"
+76-->[:flutter_email_sender] /home/gaara/Delivery/G-EIP-700-LYN-7-1-eip-tom.roger/front/build/flutter_email_sender/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+77                android:resource="@xml/shared_file_paths" />
+77-->[:flutter_email_sender] /home/gaara/Delivery/G-EIP-700-LYN-7-1-eip-tom.roger/front/build/flutter_email_sender/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-58
+78        </provider>
+79        <provider
+79-->[androidx.emoji2:emoji2:1.2.0] /home/gaara/.gradle/caches/transforms-3/2b0f5582d992c682cac00c6b19ff181e/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+80            android:name="androidx.startup.InitializationProvider"
+80-->[androidx.emoji2:emoji2:1.2.0] /home/gaara/.gradle/caches/transforms-3/2b0f5582d992c682cac00c6b19ff181e/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+81            android:authorities="com.example.sec_me.androidx-startup"
+81-->[androidx.emoji2:emoji2:1.2.0] /home/gaara/.gradle/caches/transforms-3/2b0f5582d992c682cac00c6b19ff181e/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+82            android:exported="false" >
+82-->[androidx.emoji2:emoji2:1.2.0] /home/gaara/.gradle/caches/transforms-3/2b0f5582d992c682cac00c6b19ff181e/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+83            <meta-data
+83-->[androidx.emoji2:emoji2:1.2.0] /home/gaara/.gradle/caches/transforms-3/2b0f5582d992c682cac00c6b19ff181e/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+84                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+84-->[androidx.emoji2:emoji2:1.2.0] /home/gaara/.gradle/caches/transforms-3/2b0f5582d992c682cac00c6b19ff181e/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+85                android:value="androidx.startup" />
+85-->[androidx.emoji2:emoji2:1.2.0] /home/gaara/.gradle/caches/transforms-3/2b0f5582d992c682cac00c6b19ff181e/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+86            <meta-data
+86-->[androidx.lifecycle:lifecycle-process:2.7.0] /home/gaara/.gradle/caches/transforms-3/a9f76046d80dbc3b7523521d10d443f6/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+87                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+87-->[androidx.lifecycle:lifecycle-process:2.7.0] /home/gaara/.gradle/caches/transforms-3/a9f76046d80dbc3b7523521d10d443f6/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+88                android:value="androidx.startup" />
+88-->[androidx.lifecycle:lifecycle-process:2.7.0] /home/gaara/.gradle/caches/transforms-3/a9f76046d80dbc3b7523521d10d443f6/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+89            <meta-data
+89-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/gaara/.gradle/caches/transforms-3/844c4eba65b09a61de242a55838f21f4/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+90                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+90-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/gaara/.gradle/caches/transforms-3/844c4eba65b09a61de242a55838f21f4/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+91                android:value="androidx.startup" />
+91-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/gaara/.gradle/caches/transforms-3/844c4eba65b09a61de242a55838f21f4/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+92        </provider>
+93
+94        <uses-library
+94-->[androidx.window:window:1.2.0] /home/gaara/.gradle/caches/transforms-3/c9bfb8c73a1afeb5de09de7129fa36e3/transformed/jetified-window-1.2.0/AndroidManifest.xml:23:9-25:40
+95            android:name="androidx.window.extensions"
+95-->[androidx.window:window:1.2.0] /home/gaara/.gradle/caches/transforms-3/c9bfb8c73a1afeb5de09de7129fa36e3/transformed/jetified-window-1.2.0/AndroidManifest.xml:24:13-54
+96            android:required="false" />
+96-->[androidx.window:window:1.2.0] /home/gaara/.gradle/caches/transforms-3/c9bfb8c73a1afeb5de09de7129fa36e3/transformed/jetified-window-1.2.0/AndroidManifest.xml:25:13-37
+97        <uses-library
+97-->[androidx.window:window:1.2.0] /home/gaara/.gradle/caches/transforms-3/c9bfb8c73a1afeb5de09de7129fa36e3/transformed/jetified-window-1.2.0/AndroidManifest.xml:26:9-28:40
+98            android:name="androidx.window.sidecar"
+98-->[androidx.window:window:1.2.0] /home/gaara/.gradle/caches/transforms-3/c9bfb8c73a1afeb5de09de7129fa36e3/transformed/jetified-window-1.2.0/AndroidManifest.xml:27:13-51
+99            android:required="false" />
+99-->[androidx.window:window:1.2.0] /home/gaara/.gradle/caches/transforms-3/c9bfb8c73a1afeb5de09de7129fa36e3/transformed/jetified-window-1.2.0/AndroidManifest.xml:28:13-37
+100
+101        <receiver
+101-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/gaara/.gradle/caches/transforms-3/844c4eba65b09a61de242a55838f21f4/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+102            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+102-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/gaara/.gradle/caches/transforms-3/844c4eba65b09a61de242a55838f21f4/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+103            android:directBootAware="false"
+103-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/gaara/.gradle/caches/transforms-3/844c4eba65b09a61de242a55838f21f4/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+104            android:enabled="true"
+104-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/gaara/.gradle/caches/transforms-3/844c4eba65b09a61de242a55838f21f4/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+105            android:exported="true"
+105-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/gaara/.gradle/caches/transforms-3/844c4eba65b09a61de242a55838f21f4/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+106            android:permission="android.permission.DUMP" >
+106-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/gaara/.gradle/caches/transforms-3/844c4eba65b09a61de242a55838f21f4/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+107            <intent-filter>
+107-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/gaara/.gradle/caches/transforms-3/844c4eba65b09a61de242a55838f21f4/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+108                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+108-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/gaara/.gradle/caches/transforms-3/844c4eba65b09a61de242a55838f21f4/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+108-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/gaara/.gradle/caches/transforms-3/844c4eba65b09a61de242a55838f21f4/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+109            </intent-filter>
+110            <intent-filter>
+110-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/gaara/.gradle/caches/transforms-3/844c4eba65b09a61de242a55838f21f4/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+111                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+111-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/gaara/.gradle/caches/transforms-3/844c4eba65b09a61de242a55838f21f4/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+111-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/gaara/.gradle/caches/transforms-3/844c4eba65b09a61de242a55838f21f4/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+112            </intent-filter>
+113            <intent-filter>
+113-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/gaara/.gradle/caches/transforms-3/844c4eba65b09a61de242a55838f21f4/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+114                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+114-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/gaara/.gradle/caches/transforms-3/844c4eba65b09a61de242a55838f21f4/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+114-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/gaara/.gradle/caches/transforms-3/844c4eba65b09a61de242a55838f21f4/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+115            </intent-filter>
+116            <intent-filter>
+116-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/gaara/.gradle/caches/transforms-3/844c4eba65b09a61de242a55838f21f4/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+117                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+117-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/gaara/.gradle/caches/transforms-3/844c4eba65b09a61de242a55838f21f4/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+117-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/gaara/.gradle/caches/transforms-3/844c4eba65b09a61de242a55838f21f4/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+118            </intent-filter>
+119        </receiver>
+120    </application>
+121
+122</manifest>
