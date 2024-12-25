@@ -1,8 +1,8 @@
 on:
   push:
-    branches: ["hotfix/ci_cd_unit_test_flutter"]
+    branches: ["main"]
   pull_request:
-    branches: ["hotfix/ci_cd_unit_test_flutter"]
+    branches: ["main"]
 
 name: Flutter Start Front End
 
